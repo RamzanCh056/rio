@@ -96,7 +96,7 @@ class _OtpState extends State<Otp> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => Home(),
+                                builder: (context) => HomePage(),
                               ));
                         },
                         style: ButtonStyle(
